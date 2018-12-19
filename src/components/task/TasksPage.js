@@ -96,7 +96,7 @@ class TasksPage extends React.Component {
           + (numberOfTens > 0 ? numberOfTens + ' billet' + (!numberOfTens > 1 ? '' : 's') + ' de 10 dinars \n' : '')
           + (numberOfFives > 0 ? numberOfFives + ' billets de 5 dinars \n' : '')
           + (numberOfTwos > 0 ? numberOfTwos + ' billets de 2 dinars \n' : '')
-        , caisse: this.state.caisse + (clientPush - total)});
+        , caisse: this.state.caisse + total});
       }
       if (this.state.clientPush < this.state.total) {
         this.setState({result: <h3 style={{color: 'red'}}>l'argent n'est pas suffisant</h3>})
