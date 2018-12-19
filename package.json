@@ -1,5 +1,5 @@
 {
-  "name": "application de caisse",
+  "name": "caisse-app",
   "version": "1.0.0",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
