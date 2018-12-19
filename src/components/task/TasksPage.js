@@ -128,7 +128,6 @@ class TasksPage extends React.Component {
           );
         })}
         <div>
-          {/*NOTE: we are calling the data after being handled by the reducer*/}
           Libellé : <input
           type="text"
           name="lib"
