@@ -17,7 +17,7 @@ import routes from './routes';
 
 // Webpack let's us import css like we do with js modules!
 import './styles/styles.css'; //Webpack can import CSS files
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 /********************Constants*************************/
 // we use constants to simplify development
